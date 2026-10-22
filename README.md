@@ -34,8 +34,7 @@ After successful compilation, the solver can be executed using:
 
 ## Case setup and execution
 Simulation cases are provided in the following directories:
-- run_stationary
-- run_scanning
+- run
 
 ### Running a simulation
 From within either the run_stationary or run_scanning directory,
