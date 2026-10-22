@@ -46,7 +46,7 @@ blockMesh
 ```
 2. Decompose the domain for parallel execution:
 
-The initial fields, including alpha.metal, are already initialized in the 0/ directory. Therefore, no additional field initialization is required.
+    The initial fields, including alpha.metal, are already initialized in the 0/ directory. Therefore, no additional field initialization is required.
 ```bash
 decomposePar
 ```
