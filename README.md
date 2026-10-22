@@ -44,12 +44,8 @@ execute the following commands:
 ```bash
 blockMesh
 ```
-2. Initialize fields:
-```bash
-cp -r initial/ 0/
-setFields
-```
-3. Decompose the domain for parallel execution:
+2. Decompose the domain for parallel execution:
+The initial fields, including alpha.metal, are already initialized in the 0/ directory. Therefore, no additional field initialization is required.
 ```bash
 decomposePar
 ```
